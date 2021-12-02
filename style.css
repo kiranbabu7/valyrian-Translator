@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: larger;
+  height: 10vh;
+  background-color: grey;
+}
+h3 {
+  background-color: aliceblue;
+}
+.main {
+  height: 90vh;
+  background: url(/img/bg-img.png) no-repeat center fixed;
+  background-size: cover;
+}
+textarea {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+button {
+  background-color: rgb(155, 223, 155);
+  font-size: 1.5rem;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+button:hover {
+  background-color: rgb(109, 216, 109);
+}
+.translated-output {
+  border: 2px solid black;
+  padding: 10rem 30rem;
+  background-color: rgba(255, 255, 255, 50%);
+}
